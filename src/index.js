@@ -4,7 +4,7 @@ import ReactDOM from 'react-dom';
 
 const App = () =>{
     return(
-        <div className='avatar'>
+        <div className='ui comments'>
             <div className='comment'>
                 <a href="/" className='avatar'>
                     <img  alt="profile-pic"/>
