@@ -9,6 +9,7 @@ import AddFriendCard from './AddFriendCard';
 const App = () =>{
     return(
         <div className='ui comments'>
+           <h1 style={{textAlign:'center', color:'red'}}> Blog Post</h1>
             <AddFriendCard/>
             <SingleComment 
             name='John Hans' 
