@@ -10,25 +10,34 @@ const App = () =>{
     return(
         <div className='ui comments'>
            <h1 style={{textAlign:'center', color:'red'}}> Blog Post</h1>
-            <AddFriendCard/>
-            <SingleComment 
-            name='John Hans' 
-            date='1 Jan at 6.00PM' 
-            post='Great Post' 
-            pic={pic1}/>
-            
+           <AddFriendCard>
+               <div className='text'>
+                    Hi What's your Name?
+               </div>
+           </AddFriendCard>
+            <AddFriendCard>
+                <SingleComment 
+                name='John' 
+                date='1 Jan at 6.00PM' 
+                post='Great Post' 
+                pic={pic1}/>
+             </AddFriendCard>
 
-            <SingleComment 
-            name ='Marry Jane' 
-            date=' 8 Jan at 8.00PM' 
-            post='Nice Experience' 
-            pic={pic2} />
+             <AddFriendCard>
+                <SingleComment 
+                name ='Marry Jane' 
+                date=' 8 Jan at 8.00PM' 
+                post='Nice Experience' 
+                pic={pic2} />
+            </AddFriendCard>
 
-            <SingleComment 
-            name='Jane Erw' 
-            date='Today at 9.00PM' 
-            post="It's Amazing !" 
-            pic={pic3}/>
+            <AddFriendCard>
+                <SingleComment 
+                name='Jane Erw' 
+                date='Today at 9.00PM' 
+                post="It's Amazing !" 
+                pic={pic3}/>
+            </AddFriendCard>
            
         </div>
     )
